@@ -1,15 +1,17 @@
 # backend/Dockerfile
 # Use an official Python runtime as a parent image
-FROM python:3.9-slim
+FROM python:3.9-alpine
 
 # Set the working directory in the container
 WORKDIR /app
+
+RUN apk add --no-cache gcc g++ unixodbc-dev
 
 # Copy the requirements.txt file to the container
 COPY requirements.txt .
 
 # Install dependencies
-RUN pip install -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the current directory contents into the container at /app
 COPY . /app
