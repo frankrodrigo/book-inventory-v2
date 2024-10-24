@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(180deg, #E0F2E9, white);
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+ */
+
+/* General styles that apply throughout the application */
+ body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(180deg, #E0F2E9, white);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* General container adjustments for alignment */
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* padding to prevent edge-to-edge elements on larger screens */
+/* } */ 
+
+/* Specific adjustments for form elements to avoid full width stretching */
+/* input[type="text"],
+input[type="date"],
+button {
+  max-width: 300px; /* Prevents form elements from taking full width */
+  /* width: 100%; Allows elements to be responsive within the constraints */
+/* } */ 
+
+/* Alignment adjustments for specific forms or elements */
+/* .export-data-form {
+  align-self: start; /* Aligns form at the start of its container */
+/* } */ 
