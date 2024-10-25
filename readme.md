@@ -70,7 +70,6 @@ http://localhost:8080
 The frontend of the application uses the VUE_APP_BACKEND_URL environment variable to connect to the Flask backend API. When deploying the frontend, be sure to set this environment variable to the correct public IP or domain of the backend API.
 
 For example:
-    ```bash
     VUE_APP_BACKEND_URL=https://flask-backend-xxxxxx.run.app
 
 ## Troubleshooting
