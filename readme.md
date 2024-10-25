@@ -18,13 +18,13 @@ The project is containerized using Docker with the following structure:
 
 Below is a simple diagram representing the structure of the project:
 
-![Book Inventory Architecture](./Diagram_book_inventory.png)
+![Book Inventory Architecture](./img/Diagram_book_inventory.png)
 
 ## User Flow
 
 Here is a flow diagram showing the user interactions within the system:
 
-![Book Inventory User Flow](./Seconbind_siteflow.png)
+![Book Inventory User Flow](./img/Seconbind_siteflow.png)
 
 ## Live Demo
 
