@@ -8,18 +8,14 @@ services:
     environment:
       - FLASK_APP=app.py
       - FLASK_RUN_HOST=0.0.0.0
-    volumes:
-      - ./backend:/app
-
-    # depends_on:
-    #   - db
 
   frontend:
     build: ./frontend
     container_name: vue_frontend
     ports:
-      - "8080:3000" # Mapping Vue app port
-
+      - "8080:80" # Mapping Vue app port
+    environment:
+      - VUE_APP_BACKEND_URL=http://192.168.6.1:5000/api # Set backend's public IP here
 
 
 #   db:
